@@ -31,3 +31,21 @@ For a given value `x`, the server should return a value corresponding the the ru
 | x                | Fizz   | Buzz   | FizzBuzz         |
 
 The HTML file has two variables named `host` and `port`. When configured, they should communicate with a server to at the specified address. You can configure these values to your local development environment so you can view the results in your browser.
+
+### Part 3
+
+The directory --- contains an HTML document similar to the one in _`Part 2`_. You're now required to extend your answer from _`Part 2`_. In addition to following the rules for _`Part 2`_, the server should concatenate a special word to the suffix of the response iff the POST value x is divisible by 7.
+
+In order to access the special word, your server will need to access the API at ---. The special word will be returned in the following format:
+
+```json
+{
+	"value":"<special word>"
+}
+```
+
+Please note that you will need to authenticate in order to get a response from the server. The server uses _Basic Authorization_. Use the following credentials:
+
+| username | password |
+|:--------:|:--------:|
+| wiserdev | password |
