@@ -16,7 +16,7 @@ Please commit your answers regularily. There is no time limit, though we will be
 
 The directory --- contains a simple HTML file. The file makes an AJAX request to a server. Open the file in Google Chrome and you'll notice that the request fails. You do not have access to the server. The server endpoint is ---. You're tasked with ensuring that the client code can access the API content at the provided server endpoint.
 
-**Note**: _before starting, feel free to ensure the server is operational by running something similar to the following UNIX command:_
+> **Note**: _before starting, feel free to ensure the server is operational by running something similar to the following UNIX command:_
 
 `$ curl -X GET https://---`
 
