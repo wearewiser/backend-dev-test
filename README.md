@@ -36,7 +36,7 @@ The HTML file has two variables named `host` and `port`. When configured, they s
 
 ### Part 3
 
-The directory --- contains an HTML document similar to the one in _`Part 2`_. You're now required to extend your answer from _`Part 2`_. In addition to following the rules for _`Part 2`_, the server should concatenate a special word to the suffix of the response iff the POST value x is divisible by 7.
+The directory --- contains an HTML document similar to the one in [Part 2](#part-2). You're now required to extend your answer from [Part 2](#part-2). In addition to following the rules for [Part 2](#part-2), the server should concatenate a special word to the suffix of the response iff the POST value x is divisible by 7.
 
 In order to access the special word, your server will need to access the API at ---. The special word will be returned in the following format:
 
