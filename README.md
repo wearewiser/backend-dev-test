@@ -4,7 +4,7 @@
 
 ## About This Test
 
-This test is for a backend developer position with Wiser. There are --- parts to this test. Fork this test, and provide the answers in ---. You'll find labeled directories in this repository corresponding to each question.
+This test is for a backend developer position with Wiser. There are --- parts to this test. Fork this test, and provide the answers in ---. You'll find labeled directories in this repository corresponding to each question. When complete, email a repository link to ---.
 
 Any required content will be provided in the `---` directory. Please put your answers in the `---` directory.
 
