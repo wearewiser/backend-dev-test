@@ -19,3 +19,15 @@ The directory --- contains a simple HTML file. The file makes an AJAX request to
 **Note**: _before starting, feel free to ensure the server is operational by running something similar to the following UNIX command:_
 
 `$ curl -X GET https://---`
+
+### Part 2
+
+The directory --- contains an HTML file. The file has an input[type:number] and a button. The user is expected to enter a number into the input, and when the button is clicked it should POST that number asynchronously and wait for the server's response before rendering the response into the view.
+
+For a given value `x`, the server should return a value corresponding the the rules in the table below:
+
+| x%3!=0 && x%5!=0 | x%3==0 | x%5==0 | x%3==0 && x%5==0 |
+|:----------------:|:------:|:------:|:----------------:|
+| x                | Fizz   | Buzz   | FizzBuzz         |
+
+The HTML file has two variables named `host` and `port`. When configured, they should communicate with a server to at the specified address. You can configure these values to your local development environment so you can view the results in your browser.
