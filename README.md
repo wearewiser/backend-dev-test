@@ -53,3 +53,5 @@ Please note that you will need to authenticate in order to get a response from t
 | wiserdev | password |
 
 > **Note**: _before starting, feel free to ensure the server is operational by running something similar to the following UNIX command:_
+
+`$ curl -X GET https://---`
