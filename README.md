@@ -4,11 +4,11 @@
 
 ## About This Test
 
-This test is for a backend developer position with Wiser. There are --- parts to this test. Fork this test, and provide the answers in ---. You'll find labeled directories in this repository corresponding to each question. When complete, email a repository link to ---.
+This test is for a backend developer position with Wiser. There are --- parts to this test. Fork this test to provide solutions. You'll find labeled directories in this repository corresponding to each part of the test. When complete, email a repository link to ---.
 
-Any required content will be provided in the `---` directory. Please put your answers in the `---` directory.
+Any required content will be provided in the `material` directory. Please create and put your answers in a `solution` directory. Create a new branch `part(x)` for each part of the test. Package dependencies for each part should be installed separately in each `solution` directory.
 
-Please commit your answers regularly. There is no time limit, though we will be looking at the commit metrics. We will be looking for DRY code and good coding practices. Include a README in each `---` directory. Please include BDD tests - bonus marks for code coverage reporting.
+Please commit your answers regularly. There is no time limit, though we will be looking at the commit metrics. We will be looking for DRY code and good coding practices. Include a README in each `solution` directory. Please include BDD tests - bonus marks for code coverage reporting.
 
 One more thing! Please write your server code using [TypeScript Node](https://www.npmjs.com/package/ts-node).
 
@@ -16,7 +16,7 @@ One more thing! Please write your server code using [TypeScript Node](https://ww
 
 ### Part 1
 
-The directory --- contains a simple HTML file. The file makes an AJAX request to a server. Open the file in Google Chrome and you'll notice that the request fails. You do not have access to the server. The server endpoint is [http://dev-test.madebywiser.com/part1](http://dev-test.madebywiser.com/part1). You're tasked with ensuring that the client code can access the API content at the provided server endpoint.
+The directory `part1` contains a simple HTML file. The file makes an AJAX request to a server. Open the file in Google Chrome and you'll notice that the request fails. You do not have access to the server. The server endpoint is [http://dev-test.madebywiser.com/part1](http://dev-test.madebywiser.com/part1), and is defined in a JavaScript variable called `api_address`. You're tasked with ensuring that the client code can access the API content from the provided server endpoint.
 
 > **Note**: _before starting, feel free to ensure the server is operational by running something similar to the following UNIX command:_
 
