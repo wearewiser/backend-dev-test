@@ -4,7 +4,7 @@
 
 ## About This Test
 
-This test is for a backend developer position with Wiser. There are --- parts to this test. Fork this test to provide solutions. You'll find labeled directories in this repository corresponding to each part of the test. When complete, email a repository link to engineering@wearewiser.com.
+This test is for a backend developer position with Wiser. There are 3 parts to this test. Fork this test to provide solutions. You'll find labeled directories in this repository corresponding to each part of the test. When complete, email a repository link to engineering@wearewiser.com.
 
 Any required content will be provided in the `material` directory. Please create and put your answers in a `solution` directory. Create a new branch `part(x)` for each part of the test. Package dependencies for each part should be installed separately in each `solution` directory.
 
